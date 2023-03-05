@@ -1,0 +1,34 @@
+
+nav{
+   
+    color: aliceblue;
+    display: flex;
+    position:fixed;
+    background-color: rgb(11, 22, 63);
+   Width: 1430px;
+   text-align: center;
+   align-items: center;
+   justify-content: space-around;
+}
+nav div{
+    
+    /* border: 1px solid red; */
+    border-collapse: separate;
+    margin-left: 10px;
+    size: 200px;
+   
+}
+
+i{
+    color: aliceblue;
+
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header{
+    height: 200px;
+    width: 1430px;
+    background-color: rgb(47, 64, 64);
+}

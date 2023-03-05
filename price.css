@@ -1,0 +1,254 @@
+main>div{
+    
+    height: 300px;
+    display: flex;
+    background-blend-mode:overlay;
+    border: 4px double rgba(237, 246, 108, 0.601);
+    border-radius: 15px;
+   
+}
+#demo{
+    padding-top: 8px;
+    text-align: center;
+    
+}
+.left,.right{
+    width: 50%;
+}
+.left>div:hover{
+    font-size: 20px;
+    /* color: brown; */
+    background-image: none;
+    background-color: rgba(96, 171, 247, 0.598);
+}
+.left>div{
+    margin-left: 10px;
+    align-items: center;
+    margin-bottom: 5px;
+    border: 1px solid rgba(232, 238, 109, 0.653);
+    border-radius: 5px;
+    display: flex;
+    width: 300px;
+    justify-content:space-around;
+    /* background-color: rgba(0, 255, 255, 0.439); */
+}
+.left h1{
+    text-align: center;
+    font-size: 40px;
+}
+.left h2{
+    text-align: left;
+    /* font-size: 40px; */
+}
+.left button{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.right{
+    color: rgb(243, 38, 38);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.right div{
+    /* line-height: 3px; */
+    padding-left: 30px;
+    /* margin-left: 10px; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* gap: 1px; */
+    /* border: 2px solid rebeccapurple; */
+    background-color: rgba(161, 211, 254, 0.504);
+}
+.right div h2{
+    /* line-height: 3px; */
+    padding-left: 10px;
+
+    /* margin-left: 10px; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* gap: 1px; */
+    /* border: 2px solid rebeccapurple; */
+    /* background-color: rgba(161, 211, 254, 0.504); */
+}
+
+.border{
+    background-color: rgba(238, 225, 152, 0.295);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    /* margin: 0; */
+}
+#product1{
+    
+    
+    /* height: 100px; */
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product2{
+    background-image: url(images/potol.JPG.crdownload),url(gradient/gradient\ blue.png);
+    background-size: cover;
+    /* background-image: url(../../assignment/images/gradient3.png); */
+
+}
+#product3{
+    background-image: url(images/dheros.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product4{
+    background-image: url(images/Chillies-green.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product5{
+    background-image: url(images/পেঁপে-1.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product6{
+    background-image: url(images/chal.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product7{
+    background-image: url(images/আটা.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product8{
+    background-image: url(images/oil.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product9{
+    background-image: url(images/dal.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product10{
+    background-image: url(images/fruit.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product11{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product12{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product13{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product14{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product15{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product16{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product17{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product18{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product19{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product20{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+
+
+#product1>.left div{
+    
+    /* background-color: rgba(171, 204, 71, 0.506); */
+    /* height: 100px; */
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+
+#product2>.left div{
+    background-image: url(images/potol.JPG.crdownload),url(gradient/gradient\ blue.png);
+    background-size: cover;
+    /* background-image: url(../../assignment/images/gradient3.png); */
+
+}
+#product3>.left div{
+    background-image: url(images/dheros.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product4>.left div{
+    background-image: url(images/Chillies-green.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product5>.left div{
+    background-image: url(images/পেঁপে-1.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product6>.left div{
+    background-image: url(images/chal.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product7>.left div{
+    background-image: url(images/আটা.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product8>.left div{
+    background-image: url(images/oil.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product9>.left div{
+    background-image: url(images/dal.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product10{
+    background-image: url(images/fruit.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product11{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product12{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product13{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product14{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product15{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product16{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product17{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product18{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product19{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}
+#product20{
+    background-image: url(images/potato.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+}

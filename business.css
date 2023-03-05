@@ -1,0 +1,46 @@
+.x{
+    margin-left: 80%;
+}
+.d{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+.pol{
+    padding: 10px;
+    background-color: beige;
+    border: 3px double wheat;
+    border-radius: 10px;
+}
+.container{
+    height: 700px;
+    overflow: scroll;
+} 
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+footer{
+    background-color: rgb(21, 21, 53);
+    height: 200px;
+}
+
+main{
+   
+    
+    height: 630px;
+  
+   
+    background: linear-gradient(rgb(23, 23, 77),#02052b);
+    overflow:scroll;
+ 
+}
+/* header>h1{
+    text-align: center;
+    display: flex;
+    align-items: end;
+} */

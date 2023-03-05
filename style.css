@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+}
+
+
+footer{
+    height: 200px;
+}
+
+#prize{
+    background-image: url(images/business.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+    background-blend-mode:overlay;
+    
+    
+}
+#prize p{
+    /* background-image: url(images/business.jpg);
+    background-size: cover; */
+    display: none;
+    
+}
+#buy-sell p{
+    /* background-image: url(images/business.jpg);
+    background-size: cover; */
+    /* display: none; */
+    
+}
+
+#buy-sell{
+    background-image: url(images/product.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+    background-blend-mode:overlay;
+}
+
+#business{
+    background-image: url(images/busi.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+    background-blend-mode:overlay;
+}
+#agri-c{
+    background-image: url(images/Farmer_of_Bangladesh.jpg),url(gradient/gradient\ blue.png);
+    background-size: cover;
+    background-blend-mode:overlay;
+}
+
+.pic{
+    background-image: url(images/Farmer_of_Bangladesh.jpg);
+    background-size: cover;
+    
+}
+
+main{
+    padding-top: 100px;
+    color: azure;
+    height: 630px;
+    width: 1430px;
+    border:2px double beige;
+    background: linear-gradient(rgb(23, 23, 77),#02052b);
+    overflow:scroll;
+    padding-left:15px;
+    /* padding-right: 15px; */
+    /* height: 800px; */
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    border:2px double rgb(229, 118, 27);
+}
+main a{
+    height: 300px;
+}
+
+footer{
+    background-color: rgb(21, 21, 53);
+}
+
+
+
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  #prize:hover p,#buy-sell:hover p{
+    display: block;
+    animation-duration: 3s;
+    animation-name: slidein;
+    /* animation-iteration-count: infinite; */
+  }
+  
+  main h1{
+    /* font-size: 60px; */
+  }
